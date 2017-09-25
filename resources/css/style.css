@@ -272,6 +272,23 @@ table {
 
 td, th {
 	vertical-align: top;
+	padding: 0.5em 0.5em;
+}
+
+table.small th,
+table.small td,
+table.x-small th,
+table.x-small td{
+	padding: 0 0.5em;
+	line-height: 1.7em;
+}
+
+th {
+	color: #c00000;
+}
+
+td + td em {
+	letter-spacing: 3px;
 }
 
 /*
